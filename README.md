@@ -9,7 +9,7 @@ Primeramente, debe crear un entorno virtual de python en su equipo, para esto, e
 > En caso de no tener descargado la libreria virtualenv (Se puede comprobar buscando su nombre si se escribe `pip list`), debe descargarlo escribiendo el siguiente comando en su consola: `pip install virtualenv`
 
 #### Paso 2:
-Luego, clonará el repositorio dentro del entonrno virtual, escribiendo el siguiente comando en la git Bash:
+Luego, entrará a su entorno virtual y clonará el repositorio dentro del mismo, escribiendo el siguiente comando en la git Bash:
 `git clone https://github.com/Nelson-GT/interpolacion.git`
 
 #### Paso 3:
