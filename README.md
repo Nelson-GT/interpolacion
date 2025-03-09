@@ -1,7 +1,7 @@
 # Interpolación
 ## Pasos para iniciar el proyecto.
 #### Paso 1:
-Primeramente, debe crear un entorno virtual de python en su equipo, para esto, ejecute el siguiente codigo en su consola, en la ubicación que desee.
+Primeramente, debe crear un entorno virtual de python en su equipo, para esto, ejecute el siguiente comando en su consola, en la ubicación que desee.
 
 `virtualenv -p python env`
 
@@ -21,7 +21,7 @@ Seguidamente, entrará a la nueva carpeta recien creada (interpolacion) (`cd int
 `pip install -r requirements.txt`
 
 #### Paso 5:
-Con esto, ya podrá ejecutar el archivo <b>main.py</b>, el cual es el principal del proyecto, este abrirá una nueva ventana donde se podrá apreciar las 4 gráficas de las interpolaciones, y por consola podrá ver los polinomio de cada tipo de interpolación. Si desea ejecutar el archivo python desde su consola, escriba en ella lo siguiente:
+Con esto, ya podrá ejecutar el archivo <b>main.py</b>, el cual es el principal del proyecto, este abrirá una nueva ventana donde se podrá apreciar las 4 gráficas de las interpolaciones, y por consola podrá ver los polinomios de cada tipo de interpolación. Si desea ejecutar el archivo python desde su consola, escriba en ella lo siguiente:
 `python main.py`
 
 
@@ -38,6 +38,6 @@ En la ciudad de Estocolmo se hicieron investigaciones meteorológicas, donde se 
 
 - ( 2, -26)
 </b>
-Se determinó que la temperatura tenía un comportamiento similar a la expresión matemática:  <b>t = x^4 - 5x^3 - 2</b>. Por último, se intuye que los valores de las funciones derivadas para <b>-2, 0 y 2 son -92, 0 y -28</b> respectivamente.  Conociendo estos datos el equipo de investigadore desea realizar una interpolación para estos datos por 4 diferentes métodos, con la finalidad de comparar los resultados, estos métodos son: Taylor, Lagrange, Hermite, y Polinómica a trozos (Interpolador por splines).
+Se determinó que la temperatura tenía un comportamiento similar a la expresión matemática:  <b>y = x^4 - 5x^3 - 2</b>. Por último, se intuye que los valores de las funciones derivadas para <b>-2, 0 y 2 son -92, 0 y -28</b> respectivamente.  Conociendo estos datos el equipo de investigadores desea realizar una interpolación, con la finalidad de comparar los resultados. Para ello utilizarán cuatro métodos, los cuales son: Taylor, Lagrange, Hermite, y Polinómica a trozos (Interpolador por splines).
 
 Además, para la interpolación de Taylor, se desea aproximar al punto x = 1, con un máximo de 3 derivadas.
