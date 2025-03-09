@@ -9,15 +9,15 @@ Primeramente, debe crear un entorno virtual de python en su equipo, para esto, e
 > En caso de no tener descargado la libreria virtualenv (Se puede comprobar buscando su nombre si se escribe `pip list`), debe descargarlo escribiendo el siguiente comando en su consola: `pip install virtualenv`
 
 #### Paso 2:
-Luego, entrará a su entorno virtual y clonará el repositorio dentro del mismo, escribiendo el siguiente comando en la git Bash:
+Luego, entrará a su entorno virtual (`cd env`) y clonará el repositorio dentro del mismo, escribiendo el siguiente comando en la consola:
 `git clone https://github.com/Nelson-GT/interpolacion.git`
 
 #### Paso 3:
 Ahora, procederá a activarlo, escribiendo en la consola, con la ubicación de su entorno el siguiente comando:
-`env\Scripts\activate`
+`Scripts\activate`
 
 #### Paso 4:
-Seguidamente, procederá a instalar las dependencias necesarias, escribiendo en la consola el siguiente comando: 
+Seguidamente, entrará a la nueva carpeta recien creada (interpolacion) (`cd interpolacion`), e instalará las dependencias necesarias, escribiendo en la consola el siguiente comando: 
 `pip install -r requirements.txt`
 
 #### Paso 5:
